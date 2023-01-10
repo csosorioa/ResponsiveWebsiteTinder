@@ -1,0 +1,179 @@
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+body {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+h2 {
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+#title {
+    background-color: #ff4c68;
+    height: 600px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+#presentation {
+    margin-top: 50px;
+    margin-bottom: auto;
+}
+
+#image {
+    height: 600px;
+    transform: rotate(25deg);
+}
+
+#imagen {
+    object-fit: cover;
+}
+
+#name {
+    font-family: "Montserrat";
+    font-size: 1.5rem;
+}
+
+#slogan {
+    color: white;
+    padding-bottom: 30px;
+}
+
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+#footer {
+    text-align: center;
+    padding: 3%;
+}
+
+#pricing {
+    text-align: center;
+}
+
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+}
+
+.cta-div {
+    padding: 8%;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+.navbar {
+    font-size: 1.5rem;
+    padding-left: 0;
+}
+
+.nav-item {
+    margin: auto 18px;
+}
+
+.btn {
+    margin: auto auto 25px 5px;
+}
+
+.feature {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+.fa-solid {
+    color: #ef8172;
+    font-size: 3rem;
+    margin-bottom: 10px;
+    transition-duration: 1s;
+}
+.fa-solid:hover {
+    color: #ff4c68;
+}
+
+.cFeature {
+    margin-top: 50px;
+}
+
+.featureName {
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+.featureDes {
+    color: #8f8f8f;
+}
+
+.testimonialImg {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.pressLogo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.offer {
+    padding-bottom: 20px;
+}
+
+.cd-deck {
+    padding: 7% 10%;
+}
+
+.cta-slogan {
+    color: white;
+    font-family: "Montserrat";
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 5%;
+}
+
+.f-p {
+    color: #8f8f8f;
+}
+
+.footer-logo {
+    margin: 0.5% 1%;
+}
+
+@media (max-width: 1028px) {
+
+    #title {
+        object-fit: none;
+        overflow: auto;
+        height: auto;
+        text-align: center;
+    }
+    #image {
+        height: 600px;
+        transform: rotate(0deg);
+    }
+}
